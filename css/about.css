@@ -1,0 +1,57 @@
+.about__coder {
+	color: #ff2e63;
+}
+
+.about__container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.about__container .left {
+	width: 45%;
+}
+.about__container .left img {
+	object-fit: contain;
+	height: 300px;
+	width: 300px;
+	border-radius: 8px;
+}
+
+.about__container .right {
+	width: 55%;
+}
+
+.about__text {
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.about__text span {
+	color: #ff2e63;
+}
+
+.right a {
+	display: inline-block;
+	padding: 3px 30px;
+	margin-top: 20px;
+	border-radius: 6px;
+	border: 2px solid #ff2e63;
+	background-color: #ff2e63;
+	color: #fff;
+
+	font-size: 18px;
+	font-weight: 500;
+	transition: all 0.3s ease;
+}
+
+.right a:hover {
+	color: #ff2e63;
+	background: none;
+}
+
+.about .title::after {
+	content: "Who I am";
+}
