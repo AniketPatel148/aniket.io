@@ -30,6 +30,9 @@ video {
 /* About section */
 
 section {
+	min-height: 100vh;
+	/* display: flex;
+	align-items: center; */
 	padding: 100px 0;
 }
 
@@ -64,4 +67,14 @@ section .title::after {
 	padding: 5px;
 	left: 50%;
 	transform: translateX(-50%);
+}
+
+/* containers */
+
+.about__container,
+.skills__container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
 }
