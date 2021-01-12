@@ -6,6 +6,10 @@
 	text-decoration: none;
 }
 
+body.open {
+	overflow: hidden;
+}
+
 .maxWidth {
 	max-width: 0 1300px;
 	padding: 0 80px;
