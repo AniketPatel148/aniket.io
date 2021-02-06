@@ -1,10 +1,10 @@
 .skills {
-	color: #fff;
+	color: #000;
 	background: #000;
 }
 
 .skills .title::before {
-	background: #fff;
+	background: #000;
 	width: 160px;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .skills__card:hover {
-	background: #ff2e63;
+	background: #7579e7;
 }
 
 .skills__cardBox {

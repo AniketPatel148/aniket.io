@@ -1,5 +1,5 @@
 .work {
-	background: #fff;
+	background: #000;
 	color: black;
 }
 
@@ -126,7 +126,7 @@
 	position: absolute;
 	bottom: 0%;
 	right: 15px;
-	color: #fff;
+	color: #000;
 	font-family: "ubuntu", sans-serif;
 	padding-bottom: 10px;
 }

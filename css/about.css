@@ -1,5 +1,5 @@
 .about__coder {
-	color: #ff2e63;
+	color: #7579e7;
 }
 
 .about__container .left {
@@ -23,7 +23,7 @@
 }
 
 .about__text span {
-	color: #ff2e63;
+	color: #7579e7;
 }
 
 .right a {
@@ -31,9 +31,9 @@
 	padding: 3px 30px;
 	margin-top: 20px;
 	border-radius: 6px;
-	border: 2px solid #ff2e63;
-	background-color: #ff2e63;
-	color: #fff;
+	border: 2px solid #7579e7;
+	background-color: #7579e7;
+	color: #000;
 
 	font-size: 18px;
 	font-weight: 500;
@@ -41,7 +41,7 @@
 }
 
 .right a:hover {
-	color: #ff2e63;
+	color: #7579e7;
 	background: none;
 }
 

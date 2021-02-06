@@ -37,7 +37,7 @@ section {
 	min-height: 100vh;
 	/* display: flex;
 	align-items: center; */
-	padding: 100px 0;
+	/* padding: 100px 0; */
 }
 
 section .title {
@@ -65,8 +65,8 @@ section .title::after {
 	content: "";
 	position: absolute;
 	font-size: 20px;
-	color: #ff2e63;
-	background-color: #fff;
+	color: #7579e7;
+	background-color: #000;
 	bottom: -12px;
 	padding: 5px;
 	left: 50%;
