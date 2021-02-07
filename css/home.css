@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&family=Ubuntu:wght@300;400;500&display=swap");
+
 .home {
 	display: flex;
 	/* align-items: center;
@@ -42,6 +44,15 @@
 
 .home .maxWidth {
 	margin: auto 0 auto 120px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.maxWidth img {
+	height: 350px;
+	width: 350px;
+	margin-left: 200px;
 }
 
 .home hr {
@@ -58,9 +69,11 @@
 	font-size: 27px;
 }
 .home__l2 {
-	font-size: 75px;
-	font-weight: 500px;
 	margin-left: -5px;
+}
+.home__l2 p {
+	font-size: 60px;
+	font-weight: 700px !important;
 }
 .home__l3 {
 	font-size: 40px;
