@@ -1,6 +1,6 @@
 .navbar {
 	position: fixed;
-	font-family: "Ubuntu", sans-serif;
+	font-family: "poppins", sans-serif;
 	width: 100%;
 	/* background: #7579e7; */
 	padding: 35px 0 0 200px;
@@ -11,8 +11,9 @@
 
 .navbar.sticky {
 	z-index: 1000;
-	padding: 15px 0;
-	background: #7579e7;
+	padding: 13px 0 15px 200px;
+	background: #a685e2;
+	align-items: center;
 }
 
 .navbar__logo a {

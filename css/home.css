@@ -6,7 +6,7 @@
 	min-height: 500px;
 	color: #000;
 
-	font-family: "Ubuntu", sans-serif;
+	font-family: "poppins", sans-serif;
 }
 
 .home__container ::before {
@@ -45,9 +45,9 @@
 }
 
 .home hr {
-	top: 700px;
+	top: 650px;
 	position: absolute;
-	width: 60%;
+	width: 70%;
 	height: 2px;
 	/* color: black; */
 	background: #e1e1e1;
@@ -59,7 +59,7 @@
 }
 .home__l2 {
 	font-size: 75px;
-	font-weight: 600px;
+	font-weight: 500px;
 	margin-left: -5px;
 }
 .home__l3 {
@@ -70,4 +70,21 @@
 .home__avatars {
 	font-weight: 500;
 	color: #7579e7;
+}
+
+.home__socialMediaIcons {
+	left: 73%;
+	top: 640px;
+	display: flex;
+	position: absolute;
+	justify-content: space-between;
+	width: 90px;
+	font-size: 1.25rem;
+	color: #7e7e7e;
+}
+
+.home__socialMediaIcons i:hover {
+	color: #7579e7;
+	font-size: 1.3rem;
+	transition: all 0.3s ease;
 }
